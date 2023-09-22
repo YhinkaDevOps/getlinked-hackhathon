@@ -1,6 +1,15 @@
 <template>
-  <h1 className="text-3xl font-bold underline animate__animated animate__fadeInDown">
-      Hello world!
-   </h1>
+   <div>
+      <HeaderView />
+   </div>
+  
 
 </template>
+
+<script>
+import HeaderView from '@/components/HeaderView.vue';
+
+export default {
+  components: { HeaderView }
+} 
+</script>
